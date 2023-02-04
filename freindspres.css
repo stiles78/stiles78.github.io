@@ -1,0 +1,30 @@
+body{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+	background-color: #0B5345;
+}
+header{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background-color: #0E6251;
+}
+nav{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	background-color: pink
+}
+.Personnages{
+	margin-left: 10px
+}
+.Resume{
+	margin-left: 30px
+}
+.Blagues{
+	margin-left: 40px
+}
