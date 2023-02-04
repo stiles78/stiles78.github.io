@@ -1,3 +1,18 @@
+<style>
+.nav-list {
+    width: 0%;
+    display: flex;
+}
+  
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+</style>
+
+
+
+
 body{
 	display: grid;
 	grid-template-columns: 1fr 3fr;
