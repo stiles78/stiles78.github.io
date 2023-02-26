@@ -1,43 +1,35 @@
 <!DOCTYPE html>  
 <html lang="fr">
+<style>
+img {
+  width: 100%;
+  height: auto;
+}
+</style>
 <head>
- <style>
-        #footer {
-            position: fixed;
-            padding: 0px 0px 0px 0px;
-            bottom: 0;
-            width: 100%;
-            /* Height of the footer*/
-            height: 40px;
-            background: pink;
-        }
-    </style>
+
 	<link rel="stylesheet" type"text/css" href="freindspres.css"/> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<! https://fontawesome.com/v4/icons/ >
 	<meta charset="utf-8">
 	<title>page d'accueil</title>
 </head>
 <body>
 	<header>
       <div id="entete">
-        <h1><CENTER>FRIENDS</CENTER></h1>
+        <h1>FRIENDS</h1>
       </div>
-		 <nav >
-            <ul class="nav-list">
-                <li><a href="friendsresume.html"> R&eacute;sum&eacute</a></li>
-                <li><a href="friendsblagues.html"> Blagues</a></li>
-                <li><a href="friendsperso.html"> Personnages</a></li>
-            </ul>
-        </nav>
+	  <button class="btn"><i class="fa fa-home"></i><a href="index.html"> Accueil</a></button>
+	<button class="btn"><i class="fa fa-book"></i> <a href="friendsresume.html"> R&eacute;sum&eacute </a></button>
+	<button class="btn"><i class="fa fa-smile-o"></i><a href="friendsblagues.html"> Blagues</a> </button>
+	<button class="btn"><i class="fa fa-users"></i> <a href="friendsperso.html"> Personnages</a></button>
 	</header>
  <main>
-  <a href="https://youtu.be/7z65wK5kgOY"> <img src="https://cdn.sortiraparis.com/images/1001/66131/643118-serie-friends-l-episode-retrouvailles-avec-justin-bieber-et-lady-gaga-diffuse-le-27-mai.jpg"></a>
+ 
+  <a href="https://youtu.be/7z65wK5kgOY"> <img src="https://cdn.sortiraparis.com/images/1001/66131/643118-serie-friends-l-episode-retrouvailles-avec-justin-bieber-et-lady-gaga-diffuse-le-27-mai.jpg" title="cliquer ici pour voir le générique de la série"> </a>
  </main>
  <footer>
-  <div id="footer">
-      <p><CENTER>chloe biavre & shannon deschamps 30/01/2023</CENTER></p>
-      <a herf="https://youtu.be/7z65wK5kgOY"> <img src="data:image/jpeg;base64,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"
-      width="50"
-      height="50"></a>
+        <p><CENTER>chloe biavre & shannon deschamps 30/01/2023</CENTER></p>
  </footer> 
 </body>
 </html>
