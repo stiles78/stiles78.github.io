@@ -1,4 +1,3 @@
-
 .nav-list {
     width: 0%;
     display: flex;
@@ -62,4 +61,56 @@ nav{
 }
 .Blagues{
 	margin-left: 40px
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+.slides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  border-radius: 0 3px 3px 0;
+  background: rgba(0, 0, 0, .5);
+  transition: all .3s;
+}
+
+.prev {
+	left: 0;
+}
+	
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background: rgba(0, 0, 0, .8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 10px 2px 0 2px;
+  display: inline-block;
+  background: #ddd;
+  transition: all .3s;
+}
+
+.active,
+.dot:hover {
+  background: #717171;
 }
