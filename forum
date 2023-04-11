@@ -1,0 +1,28 @@
+<html>
+<head>
+<title> f </title>
+<head/>
+<body>
+<h1><CENTER> Le forum public </CENTER></h1> 
+<div align="center"> 
+<table valign="top" width="1000" border ="1" cellpadding="0" cellspacing =" 0" >
+<td height="50" bgcolor="blue">
+<h1 align ="center"><font color ="red"> Forum </font> </h1>
+</td>
+<tr>
+<td height= "1000" > 
+</td> 
+</tr>
+<tr>
+<td height ="100" bgcolor="#FCF9CE" >
+</div align= "center">
+</body>
+<footer> 
+<h3> Créateurs: </h3> 
+<p> Chloé Biavre, Cyprien Bocqueraz, Shannon Deschamps, Paul Brochard </p> 
+<h3> Contacts </h3>
+<a src="mention-legal.html"> Copyright </a> 
+<h3> Réseaux </h3> 
+<h3> A propos </h3> 
+</footer>
+</html>
